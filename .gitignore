@@ -4,6 +4,9 @@ __pycache__/
 models
 reports
 myenv
+.venv
+venv
+
 
 # C extensions
 *.so
@@ -90,3 +93,4 @@ target/
 
 # Mypy cache
 .mypy_cache/
+/metrics.json

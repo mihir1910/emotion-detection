@@ -13,4 +13,4 @@ y_train=train_data.iloc[:,-1].values
 clf= GradientBoostingClassifier(n_estimators=50)
 clf.fit(X_train,y_train)
 
-pickle.dump(clf, open('model.pkl', 'wb'))
+pickle.dump(clf, open('models/model.pkl', 'wb'))
